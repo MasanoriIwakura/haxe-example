@@ -1,21 +1,27 @@
-# Haxeを触ってみる
+# Haxe example
 
-## 開発環境
+## Enviroment
 
 - Ubuntu 18LTS
 - Haxe 
 - Vim
 
-## 構成
+## Constitution
 
-- Hello.hx ->コンソール出力サンプル
+- Hello.hx -> console app example
 
-## 実行方法
-
-コマンドラインで各ソースを自行する
+## Usage
 
 ```bash
-haxe --main <ソース名> --interp
-# ex.) haxe --main Hello --interp
+make build
+
+# create Js
+make js
+
+# create Java
+make java
+
+# create PHP
+make php
 ```
 
